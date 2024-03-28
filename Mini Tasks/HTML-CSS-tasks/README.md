@@ -24,7 +24,7 @@ The HTML5 and CSS3 Mini Tasks Repository provides a multile tasks for web develo
 
 | Template Name | Repository Link                                               | Demo Link |
 |---------------|---------------------------------------------------------------|-----------|
-| Task 1        | [Link](Mini%20Tasks/HTML-CSS-tasks/HTML5_And_CSS3_Task01)     | [Demo](#) |
+| Task 1        | [Link](HTML5_And_CSS3_Task01)                                 | [Demo](#) |
 | Task 2        | [Link](Mini%20Tasks/HTML-CSS-tasks/HTML5_And_CSS3_Task02)     | [Demo](#) |
 | Task 3        | [Link](Mini%20Tasks/HTML-CSS-tasks/HTML5_And_CSS3_Task03)     | [Demo](#) |
 | Task 4        | [Link](Mini%20Tasks/HTML-CSS-tasks/HTML5_And_CSS3_Task04)     | [Demo](#) |
