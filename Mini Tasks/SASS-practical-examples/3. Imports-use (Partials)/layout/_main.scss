@@ -1,0 +1,39 @@
+@use '../helpers/variables' as *;
+
+@use '../components/buttons';
+@use '../components/headings';
+@use '../components/cards';
+@use '../components/gallery';
+@use '../components/contact';
+
+main {
+    .landing-screen {
+        height: 100vh;
+        position: relative;
+        background: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80) $background-center;
+        background-attachment: fixed;
+        .welcome-msg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            h1 {
+                font-size: $main-heading-fs;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: $body-fs;
+                margin: 10px 0 20px;
+                color: $paragraph-color;
+            }
+            a {
+                padding: 10px 20px;
+                border: none;
+                background-color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+}

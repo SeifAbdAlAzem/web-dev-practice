@@ -1,0 +1,40 @@
+/*
+    ////////////////////////
+    Nesting, Dimensions, Overflow
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* .child span.title {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+p, .title {
+    color: green;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* div {
+    background-color: #a52a2a;
+    padding: 20px;
+    color: #fff;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 20px;
+    margin: 10px 0;
+}
+
+.over-flow {
+    overflow: hidden;
+} */

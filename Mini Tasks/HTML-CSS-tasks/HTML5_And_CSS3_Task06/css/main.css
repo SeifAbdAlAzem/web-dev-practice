@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+/*---------------------------------------
+    CUSTOM PROPERTIES ( VARIABLES )
+-----------------------------------------*/
+:root {
+    --primary-color:                #4A90E2;
+    --secondary-color:              #86B3AB;
+    --bg-color:                     #A67E6E;
+    --custom-btn-bg-hover-color:    #ec5c09;
+    --p-color:                      #5A5A5A;
+    --dark-color:                   #000000;
+    --white-color:                  #ffffff;
+
+    --p-font-family:                'Crimson Text', serif;
+    --headings-font-family:         'Open Sans', sans-serif;
+
+    --h1-font-size:                 42px;
+    --h2-font-size:                 32px;
+    --h3-font-size:                 24px;
+    --p-font-size:                  18px;
+    --menu-font-size:               16px;
+    --btn-font-size:                14px;
+
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          4px;
+
+    --font-weight-light:            300;
+    --font-weight-normal:           400;
+    --font-weight-bold:             700;
+    }
+
+/*---------------------------------------
+    Glopal Style
+-----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: var(--headings-font-family);
+    font-weight: var(--font-weight-normal);
+    color: var(--dark-color);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+p {
+    font-family: var(--p-font-family);
+    font-size: var(--p-font-family);
+    font-weight: var(--font-weight-normal);
+    color: var(--p-color);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--custom-btn-bg-hover-color);
+    color: var(--white-color);
+    border-radius: var(--border-radius-small);
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+span {
+    color: var(--custom-btn-bg-hover-color);
+    font-weight: var(--font-weight-bold);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}
+
+/*---------------------------------------
+    Header Style
+-----------------------------------------*/
+
+/* start nav style */
+
+header {
+    height: 100vh;
+    background-image: url('../images/main\ bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+nav {
+    height: 10vh;
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.logo,
+.searchBar {
+    width: 20%;
+}
+
+.logo img {
+    width: 58%;
+}
+
+.navBar {
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navBar ul li a {
+    font-size: var(--menu-font-size);
+    font-family: var(--headings-font-family);
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.navBar ul li a:hover {
+    color: var(--custom-btn-bg-hover-color);
+    transition: all .5s ease-in-out;
+}
+
+.navBar ul li a.login:hover {
+    border-radius: var(--border-radius-small);
+    padding: 10px;
+    color: var(--white-color);
+    background-color: var(--custom-btn-bg-hover-color);
+    transition: all .5s ease-in-out;
+}
+
+.searchBar .searchBook {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBar .searchBook .searchField,
+.searchBar .searchBook .searchBtn {
+    border-radius: var(--border-radius-small);
+    padding: 10px;
+}
+
+.searchBar .searchBook .searchField {
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+
+.searchBar .searchBook .searchBtn {
+    border: none;
+    cursor: pointer;
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--custom-btn-bg-hover-color);
+}
+
+
+/* start banner style */
+
+.banner {
+    height: 70vh;
+}
+
+.banner .bannerContent {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    align-items: center;
+}
+
+.banner .bannerContent .welcomeMsg p {
+    margin: 20px 0 40px 0;
+}
+
+.banner .bannerContent .welcomeMsg {
+    width: 40%;
+}
+
+.banner .bannerContent .welcomeImg {
+    width: 50%;
+}
+
+.banner .bannerContent .welcomeImg img {
+    width: 100%;
+}
+
+
+/* start features style */
+
+.features {
+    height: 20vh;
+}
+
+.featuresBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuresBoxes .featureBox {
+    width: 24%;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius-small);
+}
+
+.featuresBoxes .featureBox h2 {
+    font-size: var(--h3-font-size);
+}
+
+.featuresBoxes .featureBox i {
+    color: var(--secondary-color);
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+.featuresBoxes .featureBox p {
+    color: var(--bg-color);
+}
+
+
+/*---------------------------------------
+    Main Style
+-----------------------------------------*/
+
+/* start about-us style */
+
+main .aboutUs {
+    height: 100vh;
+    background-image: url('../images/main\ bg.svg');
+}
+
+.aboutUsContent {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+.aboutUsContent .aboutUsImg {
+    width: 55%;
+}
+
+.aboutUsContent .aboutUsImg img {
+    width: 100%;
+}
+
+.aboutUsContent .aboutUsMsg {
+    width: 40%;
+}
+
+.aboutUsContent .aboutUsMsg h2 {
+    font-weight: var(--font-weight-bold);
+}
+
+.aboutUsContent .aboutUsMsg p {
+    margin: 20px 0 40px 0;
+}
+
+/*---------------------------------------
+    Books Style
+-----------------------------------------*/
+
+
+/* start bestsellers and new arrivals book style */
+
+.books .bestSellers,
+.books .newArrivals {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/main\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.books .bestSellers h2,
+.books .newArrivals h2,
+.books .booksGeneraSection h2 {
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.bestSellersBooks,
+.newArrivalsBooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.bestSellersBooks .bestSellersBook,
+.newArrivalsBooks .newArrivalsBook {
+    width: 250px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+.bestSellersBooks .bestSellersBook:hover,
+.newArrivalsBooks .newArrivalsBook:hover {
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+.bestSellersBooks .bestSellersBook .bookCoverImg,
+.newArrivalsBooks .newArrivalsBook .arrivalCoverImg {
+    width: 100%;
+    text-align: center;
+}
+
+.bestSellersBooks .bestSellersBook .bookCoverImg img,
+.newArrivalsBooks .newArrivalsBook .arrivalCoverImg img {
+    width: 80%;
+}
+
+.bestSellersBooks .bestSellersBook .bookGenre {
+    color: var(--primary-color);
+}
+
+.newArrivalsBooks .newArrivalsBook .rate {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.newArrivalsBooks .newArrivalsBook .rate .star i {
+    color: var(--p-color);
+}
+
+.colored {
+    color: #eeff00 !important;
+}
+
+/* start book discount style */
+
+.bookDiscount {
+    height: 30vh;
+    background-image: url(../images/main\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adContent {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+    padding: 0 20px;
+}
+
+.adContent .discount {
+    width: 40%;
+}
+
+.adContent .discount img {
+    position: absolute;
+    width: 39%;
+    top: 3px;
+}
+
+.adContent .discount .discountContet {
+    position: absolute;
+    top: 28px;
+}
+
+.adContent .discount .discountContet  p {
+    margin: 10px 0 20px 0;
+}
+
+.adContent .adImg {
+    width: 40%;
+}
+
+.adContent .adImg img {
+    width: 18%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+/* start books genre style */
+
+.books .booksGeneraSection {
+    height: 70vh;
+    display: flex;
+    padding-bottom: 10px;
+    background-image: url(../images/main\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.viewAll {
+    border-radius: var(--border-radius-small);
+    color: var(--white-color);
+    background-color: var(--custom-btn-bg-hover-color);
+    padding: 10px;
+    font-size: var(--p-font-size);
+    cursor: pointer;
+}
+
+.books .booksGeneraSection .booksGenre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.books .booksGeneraSection .booksGenre .genre {
+    width: 250px;
+    height: 200px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.books .booksGeneraSection .booksGenre .genre .imageGenre {
+    width: 100%;
+    height: 100%;
+}
+
+.genre .genreText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: translateY(100%);
+    opacity: 0;
+    padding: 10px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+/* start big reviews style */
+
+.bigReviews {
+    height: 100vh;
+    display: flex;
+    background-image: url(../images/main\ bg.svg);
+}
+
+.bigReviews h2,
+.subscribtionPlan h2 {
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.bigReviwesContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigReview {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigReview .reviewerImg {
+    width: 50%;
+}
+
+.bigReview .reviewerImg  img {
+    width: 100%;
+}
+
+.bigReview .reviewerComment {
+    width: 40%;
+    margin: auto;
+}
+
+.bigReview .reviewerComment p {
+    margin-top: 15px;
+}
+
+.bigReview .reviewerComment p i {
+    margin: 0 10px;
+}
+
+/* start subscribtion style */
+
+.subscribtionPlan {
+    height: 100vh;
+    display: flex;
+    background-image: url(../images/main\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribtions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribtions .subscriptionPlan {
+    height: 250px;
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+    border-radius: var(--border-radius-small);
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.subFee {
+    color: var(--custom-btn-bg-hover-color);
+    font-weight: var(--font-weight-bold);
+}
+
+.subDetails ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.subDetails ul .subAdvantage {
+    display: flex;
+    align-items: baseline;
+}
+
+.subDetails ul .subAdvantage i {
+    display: inline-block;
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.subDetails ul .subAdvantage li {
+    font-family: var(--headings-font-family);
+    font-size: var(--p-font-size);
+}
+
+.subscribe {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+/*Start Footer Style*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    background-image: url(../images/main\ bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .section-content {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .col {
+    flex: 25%;
+    padding: 10px;
+}
+
+footer .section-content .company-description .logo {
+    width: 100%;
+}
+
+footer .col:nth-child(2), .col:nth-child(3) {
+    flex: 15%;
+}
+
+footer .section-content .col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer .section-content .office .email-id {
+    width: fit-content;
+    border-bottom: 1px solid var(--p-color);
+    margin: 30px 0;
+}
+
+footer .section-content .links nav ul li {
+    padding: 5px 0;
+}
+
+footer .section-content .links nav ul li a {
+    text-decoration: none;
+    color: var(--p-color);
+    font-size: var(--p-font-size);
+    font-family: var(--headings-font-family);
+}
+
+footer .section-content .links nav ul li a:hover {
+    color: var(--custom-btn-bg-hover-color);
+}
+
+footer .section-content .media form {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+footer .section-content .media form .far {
+    color: var(--dark-color);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer .section-content .media form input {
+    width: 100%;
+    background: transparent;
+    color: var(--p-color);
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+footer .section-content .media form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+footer .section-content .media form button .fas {
+    font-size: 16px;
+    color: var(--dark-color);
+}
+
+footer .section-content .media form button .fas:hover {
+    border-radius: var(--border-radius-large);
+    padding: 10px;
+    background-color: var(--custom-btn-bg-hover-color);
+    color: var(--white-color);
+    transition: all .5s ease-in-out;
+}
+
+footer .section-content .media .social-media i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: var(--white-color);
+    background: var(--primary-color);
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+footer .section-content .media .social-media i:hover {
+    background-color: var(--custom-btn-bg-hover-color);
+    transition: all .5s ease-in-out;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid var(--p-color);
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background: var(--dark-color);
+    border-radius: 3px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 3px;
+    position: absolute;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+

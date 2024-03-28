@@ -1,0 +1,9 @@
+@use '../helpers/variables' as *;
+
+footer {
+    display: $parent-display;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #000;
+}

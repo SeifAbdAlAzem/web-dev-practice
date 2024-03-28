@@ -1,0 +1,29 @@
+@use '../helpers/variables' as *;
+
+.contact {
+    form {
+        display: $parent-display;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        gap: $gap;
+        .inputs {
+            display: $parent-display;
+            justify-content: space-between;
+            input {
+                width: 48%;
+                padding: $input-padding;
+                border: $border;
+            }
+        }
+        textarea {
+            resize: none;
+            height: 100px;
+            padding: $input-padding;
+        }
+        input[type=submit] {
+            width: -moz-fit-content;
+            width: fit-content;
+        }
+    }
+}

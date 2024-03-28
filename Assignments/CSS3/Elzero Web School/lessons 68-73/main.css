@@ -1,0 +1,206 @@
+/*
+    ////////////////////////
+    Skew, Matrix, 3D Transform
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5722;
+    width: 150px;
+    height: 60px;
+    margin: 25% auto;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    transform: skew(30deg) rotate(20deg);
+    -webkit-transform: skew(30deg) rotate(20deg);
+    -moz-transform: skew(30deg) rotate(20deg);
+    -ms-transform: skew(30deg) rotate(20deg);
+    -o-transform: skew(30deg) rotate(20deg);
+}
+
+h1::after {
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    transform: skew(-30deg) rotate(-20deg);
+    -webkit-transform: skew(-30deg) rotate(-20deg);
+    -moz-transform: skew(-30deg) rotate(-20deg);
+    -ms-transform: skew(-30deg) rotate(-20deg);
+    -o-transform: skew(-30deg) rotate(-20deg);
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #009688;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    width: 150px;
+    margin: 10% auto;
+    padding-left: 30px;
+    height: 80px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    border-right: 5px solid #fff;
+    width: 27px;
+    height: 80px;
+    left: -11%;
+    transform: skew(21deg);
+    -webkit-transform: skew(21deg);
+    -moz-transform: skew(21deg);
+    -ms-transform: skew(21deg);
+    -o-transform: skew(21deg);
+} */
+
+
+/*
+    Assignment Three
+*/
+
+.class {
+    /*transform: scaleX(3), skewY(0.3), skewX(0), scaleY(3), translateX(20), translateY(100);*/
+    -webkit-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -moz-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -ms-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -o-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+}
+
+
+/*
+    Assignment Four
+*/
+
+/* div {
+    background-color: #607d8b;
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+    border-bottom: 3px solid #000;
+    position: relative;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: -35.2%;
+    left: 14.5%;
+    width: 137px;
+    height: 136px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    background-color: #000;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+div::after {
+    content: "Elzero";
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+} */
+
+
+/*
+    Assignment Five
+*/
+
+/* div {
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+div:hover {
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    -moz-transform: rotate3d(0, 1, 0, 180deg);
+    -ms-transform: rotate3d(0, 1, 0, 180deg);
+    -o-transform: rotate3d(0, 1, 0, 180deg);
+}
+
+div::before,
+div::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+}
+
+div::before {
+    content: "Front";
+    background-color: #fa3664;
+}
+
+div::after {
+    content: "Back";
+    background-color: #03a9f4;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+} */

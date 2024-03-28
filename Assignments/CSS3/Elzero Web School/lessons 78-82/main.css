@@ -1,0 +1,80 @@
+/*
+    ////////////////////////
+    Selectors
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div.main.red {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* .parent .child:nth-child(2) {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* .parent:nth-of-type(2) .baby {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Four
+*/
+
+/* div[title]:not(.no-need):not(.parent [title]) {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Five
+*/
+
+/* div:not(.no-need) div[title]:last-child:not(.no-need) {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Six
+*/
+
+/* div:not(.no-need) div:nth-last-of-type(2) {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Seven
+*/
+
+/* div:not(.no-need, .no-need-2) h3 + div:not(.no-need):nth-last-child(2) {
+    color: #f00;
+} */
+
+/* div:not(.no-need, .no-need-2):first-of-type div:nth-last-child(2) {
+    color: #f00;
+} */
+
+
+/*
+    Assignment Eight
+    */
+
+/* div :not(:nth-child(1)):not(:last-child):not(h3) {
+    color: #f00;
+} */

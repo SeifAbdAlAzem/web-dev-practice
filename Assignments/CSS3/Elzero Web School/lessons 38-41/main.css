@@ -1,0 +1,166 @@
+/*
+    ////////////////////////
+    Border Radius, Box Shadow
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div {
+    float: left;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    counter-increment: element-counter;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow:
+        -6px -6px 0 0 #e91e63,
+        6px 6px 0 0 #2196f3;
+}
+
+div::before {
+    content: counter(element-counter);
+    position: absolute;
+    top: -12px;
+    left: 42%;
+    color: #fff;
+    background-color: #000;
+    padding: 4px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+div::after {
+    content: "Element";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+} */
+
+
+/*
+    Assignment Two****
+*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #efefef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px -3px #000 inset;
+    border-radius: 10% 50% 10% 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.parent section {
+    display: inline-block;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.parent section h2 {
+    color: #fff;
+    background-color: #03a9f4;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent section div {
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 13%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.parent .basic {
+    margin-right: 50px;
+}
+
+.parent .basic::after {
+    content: "";
+    height: 268px;
+    width: 1px;
+    background-color: #03a9f4;
+    position: absolute;
+    right: 51%;
+    top: 0;
+}
+
+.parent .basic::before {
+    content: "Or";
+    color: #fff;
+    background-color: #03a9f4;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 46%;
+    right: 48%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */

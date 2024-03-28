@@ -1,0 +1,67 @@
+/*
+    ////////////////////////
+    Text Formatting
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/*
+h1 {
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 blueviolet;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* .one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* div {
+    width: 400px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.continue {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+
+/*
+    Assignment Four
+*/
+
+/* a {
+    display: block;
+    width: 100px;
+    margin: auto;
+    background-color: #009688;
+    border-bottom: 10px solid #00514a;
+    text-align: center;
+    padding: 14px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+} */

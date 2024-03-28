@@ -1,0 +1,83 @@
+/*
+    ////////////////////////
+    Elements And Naming
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* Any Element With Class Title */
+/* .title {
+} */
+
+/* Any Element with Id nav */
+/* #nav {
+} */
+
+/* Any div element */
+/* div {
+} */
+
+/* Any h2 element */
+/* h2 {
+} */
+
+
+/*
+    Assignment Five
+*/
+
+/* Valid */
+/* ._user-name {
+} */
+
+/* Valid */
+/* .-user-name {
+} */
+
+/* Not Valid */
+/* .1user-name {
+} */
+
+/* Not Valid */
+/* .@user-name {
+} */
+
+/* Not Valid */
+/* .user@name {
+} */
+
+/* Valid */
+/* ._user10name {
+} */
+
+/* Valid */
+/* .u {
+} */
+
+
+/*
+    Assignment 6
+*/
+
+/* Bad */
+/* .USERNAME {
+} */
+
+/* Good */
+/* .UserName {
+} */
+
+/* Good */
+/* .user-name {
+} */
+
+/* Good */
+/* .userName {
+} */
+
+/* Bad */
+/* .usernameprofile {
+} */

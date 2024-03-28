@@ -1,0 +1,14 @@
+@use '../helpers/variables' as *;
+
+.gallery {
+    .gallery-images {
+        display: $parent-display;
+        gap: $gap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 300px;
+        }
+    }
+}

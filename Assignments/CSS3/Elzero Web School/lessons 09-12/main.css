@@ -1,0 +1,56 @@
+/*
+    ////////////////////////
+    Border, Outline, Display
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div {
+    margin: 0 20px;
+    display: inline-block;
+    background-color: #eee;
+    outline: 5px solid #000;
+    width: 100px;
+    height: 50px;
+}
+
+.shape-one {
+    border: 5px solid #f00;
+}
+
+.shape-two {
+    border: 5px solid;
+    border-color: #00f #0f0;
+}
+
+.shape-three {
+    border: 5px dashed;
+    border-color: #f00 #0f0 #00f #ff0;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* div {
+    position: relative;
+    width: 400px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.element-1 {
+    border-left: 5px solid #f00;
+}
+
+.element-2 {
+    visibility: hidden;
+}
+
+.element-3 {
+    border-left: 5px solid #0f0;
+} */

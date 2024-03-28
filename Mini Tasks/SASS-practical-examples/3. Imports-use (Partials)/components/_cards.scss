@@ -1,0 +1,33 @@
+@use '../helpers/variables' as *;
+
+.cards {
+    .card {
+        display: $parent-display;
+        align-items: center;
+        justify-content: center;
+        gap: $gap;
+        &:first-child {
+            margin-bottom: 50px;
+        }
+        .card-content {
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            h2 {
+                font-size: $section-heading-fs;
+                margin-bottom: 15px;
+            }
+            p {
+                margin: 20px 0;
+                margin-bottom: 40px;
+                line-height: 1.5rem;
+            }
+        }
+        .card-image {
+            width: 400px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

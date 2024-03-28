@@ -1,0 +1,33 @@
+@use '../helpers/variables' as *;
+
+header {
+    height: 10vh;
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    .nav-bar {
+        display: $parent-display;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav {
+            ul {
+                list-style: none;
+                display: $parent-display;
+                gap: $gap;
+                a {
+                    font-size: $body-fs;
+                    transition-duration: $transition-duration;
+                    &:hover {
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}

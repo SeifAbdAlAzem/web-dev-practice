@@ -1,0 +1,66 @@
+/*
+    ////////////////////////
+    Inheritance, Typography
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div {
+    padding: 20px;
+    border: 3px solid #f00;
+}
+
+p {
+    text-align: center;
+    background-color: #ddd;
+    padding: inherit;
+    border: inherit;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap'); */
+
+/* .open-sans {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cairo {
+    font-family: 'Cairo', sans-serif;
+}
+
+.Jomhuria {
+    font-family: 'Jomhuria', serif;
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+} */

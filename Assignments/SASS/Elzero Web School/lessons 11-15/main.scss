@@ -1,0 +1,143 @@
+/*
+    //////////////////
+    /// Mixin, Loop
+    /////////////////
+*/
+
+// Assignment 01
+
+// @mixin arrow($direction) {
+//     content: "";
+//     position: absolute;
+//     border: 20px solid transparent;
+//     @if $direction == top {
+//         left: 50%;
+//         transform: translateX(-50%);
+//         top: -40px;
+//         border-bottom-color: red;
+//     } @else if $direction == right {
+//         top: 50%;
+//         transform: translateY(-50%);
+//         right: -40px;
+//         border-left-color: red;
+// } @else if $direction == bottom {
+//         left: 50%;
+//         transform: translateX(-50%);
+//         bottom: -40px;
+//         border-top-color: red;
+// } @else if $direction == left {
+//         top: 50%;
+//         transform: translateY(-50%);
+//         left: -40px;
+//         border-right-color: red;
+//     } @else {
+//         @error "This Direction #{$direction} Is Not Valid";
+//     }
+// }
+
+// .element {
+//     &:before {
+//         @include arrow("top");
+//     }
+// }
+
+
+// Assignment 02
+
+// $grid-cols: 16;
+
+// @for $i from 1 through $grid-cols {
+//     .col-#{$i} {
+//         width: percentage($i / $grid-cols);
+//     }
+// }
+
+
+// Assignment 03
+
+// $names:
+//     "books" 20px red 18,
+//     "games" 30px green 18,
+//     "dvds" 20px blue;
+
+// @each $class_name, $padding, $border_color, $font-size in $names {
+//     .#{$class_name} {
+//         @if $font-size == null {
+//             font-size: 16px;
+//         } @else {
+//             font-size: $font-size + px;
+//         }
+//         padding: $padding;
+//         border-bottom: 2px solid $border_color;
+//         color: #444;
+//     }
+// }
+
+
+// Assignment 04
+
+// $init: 1;
+
+// @while $init <= 5 {
+//     .circle-#{$init * 100} {
+//         width: $init * 100px;
+//         height: $init * 100px;
+//         border-radius: ($init * 100px) / 2;
+// }
+//     $init: $init + 1;
+// }
+
+
+// Assignment 05
+
+// $init: 1;
+
+// @for $init from 1 through 5 {
+//     .circle-#{$init * 100} {
+//         width: $init * 100px;
+//         height: $init * 100px;
+//         border-radius: ($init * 100px) / 2;
+//     }
+// }
+
+
+// Assignment 06
+
+// @mixin placeholder {
+//     &.placeholder {
+//         @content;
+//     }
+//     &::-moz-placeholder {
+//         @content;
+//     }
+//     &::-webkit-input-placeholder {
+//         @content;
+//     }
+//     &:-ms-input-placeholder {
+//         @content;
+//     }
+// }
+
+// textarea {
+//     @include placeholder {
+//         color: #777;
+//     }
+// }
+
+
+// Assignment 07
+
+// @mixin flex-center($width: 400px) {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: $width;
+// }
+
+// .box-one {
+//     @include flex-center(400px);
+// }
+
+// .box-two {
+//     @include flex-center;
+// }

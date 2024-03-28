@@ -1,0 +1,196 @@
+/*
+    //////////////////
+    /// Nesting Variables
+    /////////////////
+*/
+
+
+// Assignment 01
+
+// .content {
+//     > {
+//         .box {
+//             padding: 15px;
+//             > .title {
+//                 font-size: 18px;
+//             }
+//         }
+//     }
+//     .cat {
+//         padding: 15px;
+//     }
+//     &.premuim::before {
+//         content: "Premium Box";
+//     }
+//     &.premuim:hover {
+//         background-color: #eee;
+//     }
+// }
+
+
+// Assignment 02
+
+// .class > {
+//     .child {
+//         padding: 10px;
+//     }
+// }
+
+// .class {
+//     > .child {
+//         padding: 10px;
+//     }
+// }
+
+// .class {
+//     > {
+//         .child {
+//             padding: 10px;
+//         }
+//     }
+// }
+
+
+// Assignment 03
+
+// .box {
+//     font: {
+//         size: 20px;
+//         weight: bold;
+//     }
+// }
+
+
+// Assignment 04
+
+// .parent {
+//     // & here is .parent; I want the next select after parent.
+//     & + .sibling {
+//         // This shorthand property written with nesting declaration.
+//         margin: auto {
+//             top: 10px;
+//         }
+//         // & here is the parent of this class ".last" which is ".parent + .sibling"
+//         & ~ .last {
+//             padding: 10px;
+//         }
+//     }
+// }
+
+// // output
+
+// // .parent + .sibling {
+// //     margin: 10px auto auto auto;
+// // }
+// // .parent + .sibling ~ .last {
+// //     padding: 10px;
+// // }
+
+
+// Assignment 05
+
+// %box-background {
+//     background-color: white;
+//     padding: 20px;
+// }
+
+// %box-border {
+//     border: 1px solid #CCC;
+// }
+
+// %box-font {
+//     font-weight: bold;
+//     margin: 20px auto;
+// }
+
+// .widget {
+//     @extend %box-background;
+// }
+
+// .main-border {
+//     @extend %box-border;
+// }
+
+// .my-class {
+//     @extend %box-background;
+//     @extend %box-border;
+//     @extend %box-font;
+// }
+
+
+// Assignment 06
+
+// %widget {
+//     background-color: white;
+//     padding: 20px;
+// }
+
+// %main-border {
+//     border: 1px solid #CCC
+// }
+
+// .my-class {
+//     @extend %widget;
+//     @extend %main-border;
+//     font-weight: bold;
+//     margin: 20px auto;
+// }
+
+
+// Assignment 07
+
+// $font-size: 20px;
+// $media-mobile: "max-width: 575px";
+
+// .box {
+//     h2, p {
+//         font-size: $font-size;
+//         @media ($media-mobile) {
+//             $font-size: 16px;
+//             font-size: $font-size;
+//             span {
+//                 font-weight: bold;
+//             }
+//         }
+//     }
+// }
+
+
+// Assignment 08
+
+// // Do Not Edit Here
+// $red: #e91e63;
+// $green: #009688;
+
+// // Add What You Want Here
+// $link-color: $green;
+// $link-hover: $red;
+
+// // Do Not Edit Here
+// .box a {
+//     color: $link-color;
+//     &:hover {
+//         color: $link-hover;
+//     }
+// }
+
+
+// Assignment 09
+
+// @use "./Helpers/vars";
+// @use "./Helpers/functions";
+// @use "./Layout/header";
+// @use "./Layout/footer";
+
+
+// Assignment 10
+
+// .box {
+//     font-size: 20px;
+//     &-holder {
+//         width: 1000px;
+//         &-content {
+//             margin: auto;
+//         }
+//     }
+// }

@@ -1,0 +1,350 @@
+/*Start Global Style*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+/*End Global Style*/
+
+/*Start Header Style*/
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 9999999;
+    height: 60px;
+    background-color: #fff;
+}
+.top-bar .logo
+{
+    width: 30%;
+    float: left;
+    font-size: 22px;
+}
+.top-bar .logo span
+{
+    color: #90dfe8;
+}
+.top-bar .logo svg
+{
+    margin-right: 5px;
+    font-size: 22px;
+}
+.top-bar .navbar
+{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.navbar ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar ul li.no-margin
+{
+    margin-right: 0;
+}
+.navbar ul li a
+{
+    color: #000;
+    text-decoration: none;
+}
+.navbar ul li a:hover
+{
+    color: #90dfe8;
+}
+/*End Header Style*/
+
+/*Start Banner Style*/
+
+.banner
+{
+    background-image: url(../img/pexels-eberhard-grossgasteiger-673020.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+    height: 500px;
+}
+.banner .relative-container
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+}
+.banner .welcome-msg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner .welcome-msg h1
+{
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.banner .welcome-msg h4
+{
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.banner .welcome-msg button
+{
+    padding: 20px 40px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner .welcome-msg button:hover
+{
+    background-color: #03c8fb;
+    cursor: pointer;
+}
+.banner svg
+{
+    color: #03c8fb;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+/*End Banner Style*/
+
+/*Start Content Style*/
+
+.content
+{
+    background-color: #ddd;
+    padding: 60px 0;
+}
+.quote
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.quote h2
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.quote p
+{
+    line-height: 1.5;
+    color: #999;
+    font-size: 18px;
+}
+.box
+{
+    padding: 40px 0;
+}
+.box .box-item
+{
+    width: 32.3333333%;
+    margin:0.5%;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.box .box-item svg
+{
+    font-size: 22px;
+}
+.box .box-item h3
+{
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.box .box-item p
+{
+    padding: 20px 0;
+    letter-spacing: 1.5;
+    color: #aaa;
+}
+
+/*End Content Style*/
+
+/*Start Clients Style*/
+
+.Clients .paragraph
+{
+    text-align: center;
+    padding: 40px 0;
+    width: 50%;
+    margin: auto;
+}
+.Clients h2
+{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.Clients p
+{
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.Clients h4
+{
+    color: #aaa;
+}
+.Clients .box
+{
+    width: 24%;
+    height: 250px;
+    margin: 0.5%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.Clients .box.one
+{
+    background-image: url(../img/pexels-caio-67112.jpg);
+}
+.Clients .box.two
+{
+    background-image: url(../img/pexels-pixabay-104842.jpg);
+}
+.Clients .box.three
+{
+    background-image: url(../img/pexels-izabella-bed%C5%91-988952.jpg);
+}
+.Clients .box.four
+{
+    background-image: url(../img/pexels-engin-akyurt-1437318.jpg);
+}
+
+/*End Clients Style*/
+
+/*Start Bottom Style*/
+
+.bottom
+{
+    background-color: #101012;
+    padding: 60px 0;
+}
+.bottom .About-Us,
+.bottom .Contact-Us
+{
+    border: 1px solid #fff;
+    padding: 30px;
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    color: #fff;
+    text-align: center;
+    height: 250px;
+}
+.bottom .About-Us h2
+{
+    text-transform: uppercase;
+}
+.bottom .About-Us p
+{
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.bottom .Contact-Us.no-margin
+{
+    margin-right: 0;
+    text-align: left;
+}
+.bottom .Contact-Us h2
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bottom .Contact-Us h3
+{
+    padding: 10px 0;
+}
+
+.bottom .Contact-Us .border
+{
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.bottom .Contact-Us p
+{
+    color: #90dfe8;
+    padding-top:20px;
+    cursor: pointer;
+    float: right;
+}
+
+/*End Bottom Style*/
+
+/*Start Bottom-Bar Style*/
+
+.bottom-bar
+{
+   background-color:  #00c8fc;
+   padding: 20px;
+   color: #fff;
+}
+.bottom-bar p
+{
+    width: 50%;
+    float: left;
+}
+.bottom-bar svg
+{
+    float: right;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/*End Bottom-Bar Style*/
+
+@media (max-width:1077px)
+{
+    .bottom .About-Us,
+    .bottom .Contact-Us
+    {
+        height: 350px;
+    }
+}
+@media (max-width:790px)
+{
+    .bottom .About-Us,
+    .bottom .Contact-Us
+    {
+        height: 450px;
+    }
+}

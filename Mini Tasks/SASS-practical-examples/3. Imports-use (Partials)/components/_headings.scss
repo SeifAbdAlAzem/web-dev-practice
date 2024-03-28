@@ -1,0 +1,7 @@
+@use '../helpers/variables' as *;
+
+.section-heading {
+    text-align: center;
+    font-size: $section-heading-fs;
+    margin-bottom: 30px;
+}

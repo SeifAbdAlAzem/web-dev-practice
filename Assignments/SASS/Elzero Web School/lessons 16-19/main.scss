@@ -1,0 +1,38 @@
+/*
+    //////////////////
+    /// Function
+    /////////////////
+*/
+
+// Assignment 01
+
+// $num: 2;
+// $start: 100;
+
+// @function double($size) {
+//   @return $size * $num;
+// }
+
+// @for $i from 0 to 5 {
+//     .box-#{$start} {
+//         width: $start + px;
+//         height: double($start) + px;
+//     }
+//     $start: $start * $num;
+// }
+
+
+// Assignment 02
+
+// @function get-total($nums...) {
+//     $total: 0;
+//     @each $num in $nums {
+//         $total: $total + $num;
+//     }
+//     @return $total;
+// }
+
+// .box {
+//     top: get-total(100, 50, 20);
+//     right: get-total(100, 50);
+// }

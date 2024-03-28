@@ -1,0 +1,85 @@
+/*
+    ////////////////////////
+    Transitions, Variables
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* .parent {
+    margin: 20% auto;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f4;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.parent:hover {
+    margin: 15% auto;
+}
+
+.child {
+    width: 320px;
+    padding: 10px 0;
+    margin: 5% auto;
+    text-align: center;
+    background-color: #dededc;
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+}
+
+.parent:hover .child {
+    margin: 15% auto;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+div {
+    text-align: center;
+    background-color: #eee !important;
+    width: 400px;
+    margin: auto;
+    font-size: 20px !important;
+    border: none !important;
+    color: transparent !important;
+    /* font-size: 0; */
+    /* text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+div::before {
+    content: "Elzero";
+    color: #000;
+}
+
+
+/*
+    Assignment Three
+*/
+
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div {
+    color: var(--mainColor, #f00);
+    padding: var(--mainPadding, 10px);
+    margin: 10px;
+    border: 2px solid var(--mainColor, #000);
+} */

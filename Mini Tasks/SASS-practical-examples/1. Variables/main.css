@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+}
+body .container {
+  width: 80%;
+  margin: auto;
+}
+body .container .boxs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+body .container .boxs .box {
+  max-width: 280px;
+  background-color: #c8deff;
+  padding: 20px;
+  position: relative;
+}
+body .container .boxs .box .img {
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  bottom: 90px;
+}
+body .container .boxs .box .img.one {
+  background: url(Images/one.jpg) no-repeat center/cover;
+}
+body .container .boxs .box .img.two {
+  background: url(Images/two.jpg) no-repeat center/cover;
+}
+body .container .boxs .box .img.three {
+  background: url(Images/three.jpg) no-repeat center/cover;
+}
+body .container .boxs .box .img.four {
+  background: url(Images/four.jpg) no-repeat center/cover;
+}
+body .container .boxs .box p {
+  font-size: 16px;
+  line-height: 24px;
+}/*# sourceMappingURL=main.css.map */

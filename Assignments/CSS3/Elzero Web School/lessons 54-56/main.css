@@ -1,0 +1,60 @@
+/*
+    ////////////////////////
+    Filters, Gradient
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div {
+    background-color: #eee;
+    width: 600px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(
+        to right,
+        #f44336 20%,
+        #2196f3 20%,
+        #2196f3 40%,
+        #4caf50 40%,
+        #4caf50 60%,
+        #e91e63 60%,
+        #e91e63 80%,
+        #673ab7 80%);
+    border-image-slice: 1;
+}
+
+div::first-letter {
+    color: #f44336;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* input {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px 5px;
+    outline: none;
+    border: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(
+        to right,
+        #f44336 50%,
+        #4caf50 50%
+    );
+    border-image-slice: 1;
+    margin: 10px;
+    caret-color: #f00;
+} */

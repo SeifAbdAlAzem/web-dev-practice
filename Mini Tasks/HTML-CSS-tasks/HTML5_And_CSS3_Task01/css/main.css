@@ -1,0 +1,376 @@
+/*Start Global Style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}
+.button input {
+    color: #fff;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 10px 20px;
+    border: 1px solid hsl(136, 65%, 51%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button input:hover {
+    filter: opacity(60%);
+}
+ul li {
+    list-style: none;
+}
+p {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5;
+}
+/*https://codepen.io/sosuke/pen/Pjoqqp*/
+.white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(262deg) brightness(104%) contrast(101%);
+}
+
+/*End Global Style*/
+
+/*Start Header Style*/
+
+header {
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: clip;
+}
+header .top-bar {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.top-bar .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;  
+}
+.top-bar .parent .logo {
+    flex-basis: 10%;
+    margin-top: 10px;
+}
+.top-bar .parent .logo img {
+    width: 110%;
+}
+.top-bar .parent nav {
+    flex-basis: 50%;
+}
+.top-bar .parent nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-bar .parent nav ul li a {
+    color: #999;
+    text-decoration: none;
+    padding-bottom: 22px;
+}
+.top-bar .parent nav ul li a:hover {
+    color: #000;
+    border-bottom: 5px solid hsl(136, 65%, 51%);
+}
+.top-bar .parent .mobile-btn {
+    display: none;
+    font-size: 32px;
+    color: #fff;
+}
+
+.banner .parent {
+    display: flex;
+}
+.banner .parent .welcome-msg {
+    flex-basis: 41%;
+    margin-top: 100px;
+}
+.banner .parent .welcome-msg h1 {
+    font-size: 52px;
+    font-weight: 300;
+}
+.banner .parent .welcome-msg p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.banner .parent .welcome-msg input {
+    margin: 20px 0;
+}
+.banner .parent .image {
+    flex-basis: 48%;
+    position: relative;
+}
+.banner .parent .image .img-bg {
+    position: absolute;
+    top: -211px;
+    right: -113%;
+    width: 197%;
+}
+.banner .parent .image .mockups-img {
+    width: 122%;
+    position: absolute;
+    right: -70%;
+    top: -21%;
+    z-index: 1;
+}
+/*End Header Style*/
+
+/*Start Main Style*/
+
+/*Start why-choose section Style*/
+
+main .why-choose {
+    background-color: hsl(220, 16%, 96%);
+    padding: 80px 0;
+    position: relative;
+}
+main .why-choose .article {
+    width: 55%;
+}
+main .why-choose .article h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+main .why-choose .article p {
+    margin-top: 20px;
+}
+main .why-choose .services {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+main .why-choose .services .service{
+    flex-basis: 23%;
+}
+main .why-choose .services .service h3 {
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+/*End why-choose section Style*/
+
+/*Start Articles Style*/
+
+main .latest-articles {
+    padding: 80px 0;
+    background-color: hsl(0, 0%, 98%);
+}
+main .latest-articles h2 {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 36px;
+}
+main .latest-articles .articles {
+    display: flex;
+    justify-content: space-between;
+}
+main .latest-articles .articles .article {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    flex-basis: 23%;
+}
+main .latest-articles .articles .article h4 {
+    color: hsl(233, 8%, 62%);
+    font-size: 12px;
+}
+main .latest-articles .articles .article p{
+    font-size: 14px;
+}
+main .latest-articles .articles .article .article-image {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4% 4% 0 0;
+}
+main .latest-articles .articles .article .height {
+    height: 165px;
+}
+main .latest-articles .articles .article .article-content {
+    padding: 0 20px 10px 20px ;
+}
+main .latest-articles .articles .article .article-content h3 {
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+main .latest-articles .articles .article .article-content h3:hover {
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+
+/*End Articles Style*/
+
+/*End Main Style*/
+
+/*Start Footer Style*/
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    padding: 50px 0;
+    position: relative;
+}
+footer .parent {
+    display: flex;
+    justify-content: space-between;
+}
+footer .parent .left-child {
+    flex-basis: 14%;
+}
+footer .parent .left-child .logo {
+    margin-bottom: 50px;
+}
+footer .parent .left-child .logo .logo-cont {
+    position: absolute;
+    z-index: 1;
+    top: 46px;
+}
+footer .parent .left-child .social-media {
+    display: flex;
+    justify-content: space-between;
+}
+footer .parent .left-child .social-media a img:hover {
+    filter: invert(70%) sepia(17%) saturate(3336%) hue-rotate(68deg) brightness(180%) contrast(70%);
+    cursor: pointer;
+}
+footer .parent .middle-child {
+    flex-basis: 50%;
+}
+footer .parent .middle-child nav ul {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-row-gap: 15px;
+    grid-column-gap: 100px;
+}
+footer .parent .middle-child nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .parent .middle-child nav ul li a:hover {
+    color: hsl(136, 65%, 51%);
+}
+footer .parent .right-child {
+    flex-basis: 22%;
+}
+footer .parent .right-child .button {
+    direction: rtl;
+    margin-bottom: 30px;
+}
+
+/*End Footer Style*/
+
+/*Start Responsive Design*/
+
+@media (max-width:375px) {
+    .container {
+        width: 90%;
+    }
+    header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .top-bar .parent {
+        align-items: center;
+        padding: 20px 0;
+    }
+    .top-bar .parent .logo {
+        flex-basis: 60%;
+    }
+    .top-bar .parent .logo img {
+        width: 70%;
+    }
+    .top-bar .parent nav,
+    .top-bar .parent .button {
+        display: none;
+    }
+    .top-bar .parent .mobile-btn {
+        display: block;
+    }
+    .top-bar .parent .mobile-btn img {
+        width: 40px;
+    }
+    .banner .parent {
+        flex-direction: column-reverse;
+    }
+    .banner .parent .welcome-msg {
+        margin: 0;
+        text-align: center;
+    }
+    .banner .parent .welcome-msg h1 {
+        font-size: 35px;
+    }
+    .banner .parent .welcome-msg p {
+        font-size: 16px;
+    }
+    .banner .parent .image {
+        position: initial;
+        flex-basis: 0;
+        height: 340px;
+    }
+    .banner .parent .image .img-bg {
+        position: relative;
+        top: -173px;
+        right: 90px;
+        width: 175%;
+    }
+    .banner .parent .image .mockups-img {
+        position: absolute;
+        width: 85%;
+        right: 8%;
+        top: -4%;
+        z-index: 1;
+    }
+    main .why-choose .article {
+        text-align: center;
+        width: 100%;
+    }
+    main .why-choose .article h2 {
+        width: 70%;
+        margin: auto;
+    }
+    main .why-choose .services .service,
+    main .latest-articles .articles .article {
+        margin-bottom: 30px;
+    }
+    main .latest-articles h2 {
+        text-align: center;
+    }
+    main .latest-articles .articles .article .height {
+        height: auto;
+    }
+    main .latest-articles .articles .article .article-content {
+        padding: 0 20px 20px 20px;
+        text-align: start;
+    }
+    main .why-choose .services, 
+    main .why-choose .services .service,
+    main .latest-articles .articles,
+    footer .parent {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .parent .left-child .social-media {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 50%;
+    }
+    footer .parent .middle-child nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+}
+
+/*End Responsive Design*/
+
+    

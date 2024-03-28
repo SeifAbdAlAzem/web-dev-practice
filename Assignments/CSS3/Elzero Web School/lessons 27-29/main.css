@@ -1,0 +1,78 @@
+/*
+    ////////////////////////
+    Float, Opacity
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 800px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.child {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 7.5px;
+    background-color: #ddd;
+}
+
+.full-width {
+    width: calc(100% - 15px);
+}
+
+.box_one-third-size {
+    width: calc((100% - 45px) / 3);
+}
+
+.box_half-size {
+    width: calc((100% - 30px) / 2);
+}
+
+.box_quarter-size {
+    width: calc((100% - 60px) / 4);
+}
+
+.clear {
+    clear: both;
+} */
+
+/*
+    ////////////////////
+    Content Width Is: 100%
+    6 Spaces  7.5px * 6 => 45px From Content Width  "There is no Horizontal Margin Collapse"
+    100% - 45px Available Space
+    3 Elements The Width Is: (100% - 45px) / 3
+    /////////////////////
+*/
+
+/*
+    Assignment Two
+*/
+
+/* div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+}
+
+.one {
+    background-color: rgb(179 179 179 / 0.1);
+}
+
+.two {
+    opacity: 0.1;
+} */

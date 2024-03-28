@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*Start Global Style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/*End Global Style*/
+
+/*Start background style*/
+
+.bg-desktop {
+    display: block;
+}
+
+.bg-mobile {
+    display: none;
+}
+
+.bg-intro-left-desktop {
+    position: absolute;
+    width: 10%;
+    top: 70%;
+}
+
+.bg-intro-right-desktop {
+    position: absolute;
+    right: 0%;
+    top: 0;
+    width: 20%;
+}
+
+.bg-how-we-work-desktop {
+    position: absolute;
+    z-index: 0;
+    width: 27%;
+    right: 0%;
+    top: 0%;
+}
+
+.bg-footer-desktop {
+    width: 34%;
+    top: 0%;
+    position: absolute;
+}
+
+/*End background style*/
+
+/*Start Header Style*/
+
+.icon-hamburger {
+    display: none;
+}
+
+header .nav-bar {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+header .nav-bar nav {
+    display: flex;
+    width: 35%;
+}
+
+header .nav-bar nav ul {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style: none;
+}
+
+header .nav-bar nav ul li a {
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    text-decoration: none;
+}
+
+header .nav-bar nav ul li a:hover {
+    transition: all 1s ease;
+    color: #000;
+}
+
+header .nav-bar nav ul li.view-plans a {
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px 15px;
+}
+
+header .nav-bar nav ul li.view-plans a:hover {
+    transition: all 1s ease;
+    color: #fff;
+    background-color: #000;
+}
+
+header .main-banner {
+    position: relative;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+}
+
+header .main-banner-content {
+    display: flex;
+    position: relative;
+}
+
+.welcome-msg {
+    margin: 4% 0;
+    width: 43%;
+}
+
+.welcome-msg h1 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.welcome-msg h1::before {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 10%;
+}
+
+.welcome-msg p {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.welcome-msg button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.welcome-msg button:hover {
+    transition: all .5s ease;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.intro-img {
+    position: absolute;
+    right: 0%;
+    top: 14%;
+}
+
+.intro-img img {
+    width: 70%;
+}
+
+/*End Header Style*/
+
+/*Start Main Style*/
+
+main {
+    margin-top: 15%;
+}
+
+.section-header {
+    margin-bottom: 6%;
+}
+
+.section-header h2 {
+    font-size: 42px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.section-header h2::before {
+    content: "";
+    display: block;
+    width: 15%;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 4%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 30%;
+}
+
+.feature h3 {
+    margin: 15px 0;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.feature p {
+    color: #999;
+}
+
+.banner {
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    padding: 40px;
+    position: relative;
+    margin: 5% 0;
+}
+
+.banner h2 {
+    font-size: 32px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    width: 28%;
+}
+
+.banner button {
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+    top: 40%;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.banner button:hover {
+    transition: all 1s ease;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+/*End Main Style*/
+
+/*Start footer Style*/
+
+footer {
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    padding: 5% 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2%;
+}
+
+.social-media-accounts {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-accounts img:hover {
+    transition: all .5s ease;
+    cursor: pointer;
+    filter: invert(70%) sepia(17%) saturate(3336%) hue-rotate(68deg) brightness(0%) contrast(70%);
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.pages-list h3 {
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 15%;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+.pages-list ul {
+    list-style: none;
+}
+
+.pages-list ul li {
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.pages-list ul li a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+/*End footer Style*/
+
+/*Start Responsive Style*/
+
+@media only screen and (max-width: 400px)  {
+
+    .icon-hamburger {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    header .nav-bar {
+        width: 100%;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .main-banner-content {
+        flex-direction: column-reverse;
+    }
+
+    .welcome-msg {
+        width: 90%;
+        margin: 8% auto;
+        padding: 10% 0;
+        text-align: center;
+    }
+
+    .welcome-msg h1::before {
+        display: none;
+    }
+
+    .welcome-msg button {
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .intro-img {
+        position: static;
+    }
+
+    .intro-img img {
+        width: 100%;
+    }
+
+    .our-features {
+        text-align: center;
+        width: 90%;
+        margin: 26% auto;
+    }
+
+    .section-header h2::before {
+        width: 40%;
+        margin: 0% auto 5%;
+    }
+
+    .section-header {
+        margin-bottom: 15%;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 10% 0;
+    }
+
+    .banner {
+        width: 90%;
+        margin: 30% auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+    }
+
+    .banner h2 {
+        width: 94%;
+    }
+
+    .banner button {
+        position: static;
+        width: 60%;
+        margin: 15% auto 5%;
+    }
+
+    footer {
+        padding: 22% 0;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8%;
+    }
+
+    .social-media-accounts {
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .pages {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .pages-list {
+        margin: 5% 0;
+    }
+
+    .pages-list h3 {
+        margin-bottom: 15%;
+    }
+
+    .bg-desktop {
+        display: none;
+    }
+
+    .bg-mobile {
+        display: block;
+        position: absolute;
+    }
+
+    .bg-intro-left-mobile {
+        top: 50%;
+    }
+
+    .bg-intro-right-mobile {
+        right: 0;
+        top: 84%;
+        width: 30%;
+    }
+
+    .bg-how-we-work-mobile {
+        right: 0;
+        top: 0%;
+        width: 45%;
+    }
+
+    .bg-footer-mobile {
+        top: 0%;
+        width: 100%;
+    }
+
+    header .nav-bar nav {
+        display: none;
+    }
+
+}
+
+/*End Responsive Style*/
+
+/*Start JS style*/
+
+.icon-close {
+    display: none;
+}
+
+.nav-responsive {
+    background-color: hsl(270, 9%, 17%);
+    position: absolute;
+    top: 14%;
+    left: -100%;
+    z-index: 1;
+    width: 100%;
+    height: 92%;
+    transition: all 1s ease-in-out;
+}
+
+.nav-responsive .bg-mobile-nav {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-responsive ul {
+    padding-top: 15%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav-responsive ul li {
+    margin-bottom: 10%;
+}
+
+.nav-responsive ul li.view-plans a {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 2% 28%;
+}
+
+.nav-responsive ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10% 0;
+}
+
+/*End JS style*/

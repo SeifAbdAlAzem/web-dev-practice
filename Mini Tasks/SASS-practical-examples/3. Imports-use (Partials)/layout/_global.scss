@@ -1,0 +1,43 @@
+@use '../helpers/variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+section {
+    padding: $section-padding;
+}
+
+input, textarea {
+    outline: none;
+}
+
+p {
+    font-size: $body-fs;
+    color: $paragraph-color;
+}

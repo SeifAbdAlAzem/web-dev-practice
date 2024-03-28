@@ -1,0 +1,37 @@
+[
+    {
+        "id": 123,
+        "author": "Ahmed",
+        "category": "Crime",
+        "title": "Article One",
+        "content": "Article One Content"
+    },
+    {
+        "id": 456,
+        "author": "Mohamed",
+        "category": "Politics",
+        "title": "Article Two",
+        "content": "Article Two Content"
+    },
+    {
+        "id": 789,
+        "author": "Osama",
+        "category": "Fashion",
+        "title": "Article Three",
+        "content": "Article Three Content"
+    },
+    {
+        "id": 135,
+        "author": "Seif",
+        "category": "Crime",
+        "title": "Article Four",
+        "content": "Article Four Content"
+    },
+    {
+        "id": 687,
+        "author": "Youssef",
+        "category": "Crime",
+        "title": "Article Five",
+        "content": "Article Five Content"
+    }
+]

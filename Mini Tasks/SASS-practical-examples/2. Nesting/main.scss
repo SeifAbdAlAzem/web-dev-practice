@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+// Variables
+
+$main-font: "Roboto", sans-serif;
+$body-fs: 18px;
+$ds-flex: flex;
+$gap: 40px;
+$bg-image-center: no-repeat center/cover;
+$transition-duration: 0.5s;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $main-font;
+  background: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg) $bg-image-center;
+  header {
+    ul {
+      padding: 20px;
+      height: 100vh;
+      display: flex;
+      gap: $gap;
+      align-items: end;
+      list-style: none;
+      li {
+        a {
+          color: #fff;
+          font-size: $body-fs;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition-duration: $transition-duration;
+          padding-bottom: 5px;
+          &:hover {
+            color: #fafc6b;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}

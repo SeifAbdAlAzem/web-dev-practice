@@ -1,0 +1,167 @@
+/*
+    ////////////////////////
+    Media Queries
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* @media print {
+    div {
+        font-size: 40px;
+    }
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@counter-style custom-style {
+    system: fixed;
+    symbols: "One" "Two" "Three" "Four";
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.parent .child {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #eee;
+    flex-basis: 23%;
+    padding: 20px 0;
+    counter-increment: members-counter;
+}
+
+.parent .child h3 {
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+.parent .child h3::after {
+    content: counter(members-counter, custom-style);
+}
+
+@media (max-width: 992px) {
+    .parent .child {
+        flex-basis: 48%;
+        margin-bottom: 2%;
+    }
+    .parent .child h3 {
+        color: #f00;
+    }
+}
+
+@media (max-width: 767px) {
+    .parent .child {
+        flex-basis: 98%;
+        margin: 1%;
+    }
+    .parent .child h3 {
+        color: #000;
+    }
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@counter-style custom-style {
+    system: fixed;
+    symbols: "One" "Two" "Three" "Four";
+}
+
+.parent {
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 20px;
+    grid-template-areas:
+    "one one"
+    "two three"
+    "four four";
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.parent .child {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    counter-increment: members-counter;
+}
+
+.parent .child h3 {
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+.parent .child h3::after {
+    content: counter(members-counter, custom-style);
+}
+
+@media (max-width: 992px) {
+    .parent {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 80px);
+        grid-template-areas:
+        "one one one"
+        "two three four";
+    }
+    .parent .child h3 {
+        color: #f00;
+    }
+}
+
+@media (max-width: 767px) {
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 80px);
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four";
+    }
+    .parent .child h3 {
+        color: #000;
+    }
+} */

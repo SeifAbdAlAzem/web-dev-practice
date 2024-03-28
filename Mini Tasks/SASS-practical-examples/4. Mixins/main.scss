@@ -1,0 +1,37 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+main {
+  font-family: $body-font-family;
+  .container {
+    width: 80%;
+    margin: auto;
+    .cards {
+      margin-top: 5%;
+      display: $parent-display;
+      flex-wrap: wrap;
+      gap: $gap;
+      .card {
+        @include card;
+        display: $parent-display;
+        flex-direction: column;
+        gap: $gap * 2;
+        h2 {
+          font-size: $main-heading-fs;
+        }
+        span {
+          font-size: $span-fs;
+        }
+        p {
+          @include paragraph-style;
+        }
+        button {
+          @include plan-btn;
+        }
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+
+input, textarea {
+  outline: none;
+}
+
+p {
+  font-size: 18px;
+  color: #000;
+}
+
+header {
+  height: 10vh;
+  padding: 10px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+}
+header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-bar .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+header .nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header .nav-bar nav ul a {
+  font-size: 18px;
+  transition-duration: 0.5s;
+}
+header .nav-bar nav ul a:hover {
+  color: #257705;
+}
+
+.main-btn {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cards .card:first-child {
+  margin-bottom: 50px;
+}
+.cards .card .card-content {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+}
+.cards .card .card-content h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.cards .card .card-content p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.cards .card .card-image {
+  width: 400px;
+}
+.cards .card .card-image img {
+  width: 100%;
+}
+
+.gallery .gallery-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .gallery-images img {
+  width: 300px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  gap: 20px;
+}
+.contact form .inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.contact form .inputs input {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #666;
+}
+.contact form textarea {
+  resize: none;
+  height: 100px;
+  padding: 10px;
+}
+.contact form input[type=submit] {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main .landing-screen {
+  height: 100vh;
+  position: relative;
+  background: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80) no-repeat center/cover;
+  background-attachment: fixed;
+}
+main .landing-screen .welcome-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+main .landing-screen .welcome-msg h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+main .landing-screen .welcome-msg p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+  color: #000;
+}
+main .landing-screen .welcome-msg a {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+}/*# sourceMappingURL=main.css.map */

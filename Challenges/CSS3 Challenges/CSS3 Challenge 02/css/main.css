@@ -1,0 +1,108 @@
+div {
+    color: #323234;
+    font-size: 440px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div::before,
+div::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #fea604;
+}
+
+div::before {
+    top: 74%;
+    right: 35.5%;
+    animation-name: animation-one;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+div::after {
+    top: 29.4%;
+    right: 52%;
+    -webkit-animation: animation-two 2s linear 2s, animation-three 2s linear 4s;
+    animation: animation-two 2s linear 2s, animation-three 2s linear 4s;
+}
+
+@keyframes animation-one {
+    0% {
+        right: 35.5%;
+        top: 74%;
+    }
+    30% {
+        right: 44.4%;
+        top: 74%;
+    }
+    60% {
+        right: 44.4%;
+        top: 30%;
+        opacity: 1;
+    }
+    90% {
+        right: 44.4%;
+        top: 30%;
+        opacity: 0;
+    }
+    100% {
+        right: 44.4%;
+        top: 30%;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes animation-two {
+    0% {
+        top: 29.4%;
+        right: 52%;
+    }
+    15% {
+        top: 29.4%;
+        right: 60.7%;
+    }
+    30% {
+        top: 51.4%;
+        right: 60.7%;
+    }
+    45% {
+        top: 51.4%;
+        right: 52.5%;
+    }
+    60% {
+        top: 51.4%;
+        right: 60.7%;
+    }
+    75% {
+        top: 74%;
+        right: 60.7%;
+    }
+    100% {
+        top: 74%;
+        right: 51.5%;
+    }
+}
+
+@keyframes animation-three {
+    0% {
+        top: 74%;
+        right: 51.5%;
+    }
+    30% {
+        top: 74%;
+        right: 60.7%;
+    }
+    70% {
+        top: 29.4%;
+        right: 60.7%;
+    }
+    100% {
+        top: 29.4%;
+        right: 52%;
+    }
+}

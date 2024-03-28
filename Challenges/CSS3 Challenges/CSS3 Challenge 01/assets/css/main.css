@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.team-members {
+    width: 1200px;
+    height: 1400px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.team-members section {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 3px solid #f97b53;
+    position: relative;
+}
+
+.team-members .black-section {
+    background-color: #000;
+    color: #fff;
+}
+
+.team-members section h3 {
+    color: #999;
+}
+
+.team-members section .bio {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.team-members section img {
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.team-members .one {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.team-members .two {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.team-members .three {
+    grid-column: 4;
+    grid-row: span 3;
+}
+
+.team-members .four {
+    grid-column: 1;
+    grid-row: span 2;
+}
+
+.team-members .five {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.team-members .six {
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+
+.team-members .seven {
+    grid-row: 4;
+
+}
+
+.team-members .eight {
+    grid-row: 4;
+}
+
+.team-members .nine {
+    grid-row: 4;
+}
+
+.team-members .ten {
+    grid-row: 4;
+}

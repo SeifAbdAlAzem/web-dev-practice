@@ -1,0 +1,277 @@
+/*
+    ////////////////////////
+    Flex Box
+    ///////////////////////
+*/
+
+/*
+    Assignment One
+*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff5722;
+    font-size: 20px;
+    border-left: 5px solid #03a9f4;
+    border-right: 5px solid #ff5722;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+
+/*
+    Assignment Two
+*/
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.parent div {
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f44336;
+} */
+
+
+/*
+    Assignment Three
+*/
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.parent div {
+    width: 180px;
+    height: 150px;
+    color: #fff;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent .one,
+.parent .three {
+    height: 40px;
+
+}
+
+.parent .one {
+    order: 5;
+    align-self: flex-end;
+}
+
+.parent .two {
+    order: 4;
+}
+
+.parent .three {
+    order: 1;
+}
+
+.parent .four {
+    order: 2;
+}
+
+.parent .five {
+    order: 3;
+}
+
+.parent .six {
+    order: 0;
+} */
+
+
+/*
+    Assignment Four
+*/
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.parent div {
+    background-color: #009688;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.parent .one,
+.parent .three {
+    align-self: flex-end;
+    width: fit-content;
+    padding: 0 10px;
+}
+
+.parent .two {
+    width: 300px;
+} */
+
+
+/*
+    Assignment Five
+*/
+
+/* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.parent div {
+    width: 90px;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent .one,
+.parent .three {
+    align-self: flex-end;
+}
+
+.parent .one {
+    background-color: #ff9800;
+}
+
+.parent .two {
+    background-color: #8bc34a;
+    order: 3;
+    margin-left: 13%;
+}
+
+.parent .three {
+    background-color: #795548;
+    order: 2;
+}
+
+.parent .four {
+    background-color: #673ab7;
+} */
+
+
+/*
+    Assignment Six
+*/
+
+/* * {
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #ddd;
+    --display-flex: flex;
+    --justify-content-around: space-around;
+    --padding-content-inside: 10px;
+}
+
+.page {
+    background-color: #eee;
+    width: 600px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+header,
+main,
+footer {
+    display: var(--display-flex);
+    justify-content: var(--justify-content-around);
+}
+
+header .logo,
+header nav,
+main section,
+main aside,
+footer {
+    display: var(--display-flex);
+    background-color: var(--background-color);
+    margin: 5px 0;
+}
+
+main section,
+main aside,
+footer {
+    padding: var(--padding-content-inside);
+}
+
+header .logo {
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 500px;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 10px;
+}
+
+main section {
+    width: 390px;
+    height: 200px;
+}
+
+main aside {
+    width: 180px;
+}
+
+footer {
+    width: 585px;
+    margin: 5px auto;
+    justify-content: space-between;
+} */

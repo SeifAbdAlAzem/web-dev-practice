@@ -1,0 +1,33 @@
+@use './variables' as *;
+
+%display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) $image-center;
+    height: 50vh;
+    text-align: center;
+    @extend %display-flex;
+    color: #fff;
+    // position: relative;
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-color: rgba(0,0,0,0.4);
+    //     z-index: 0;
+    // }
+    .welcome-msg {
+        width: 40%;
+        // position: relative;
+        h1 {
+            font-size: $main-heading-fs;
+        }
+    }
+}
