@@ -14,9 +14,9 @@ Feel free to attempt the challenges on your own, experimenting with different ap
 
 ## Templates Navigation
 
-| Template Name               | Repository Link | Demo Link |
-|-----------------------------|-----------------|-----------|
-| Tip Calculator              | [Link](#)       | [Demo](#) |
+| Template Name               | Repository Link            | Demo Link                                                         |
+|-----------------------------|----------------------------|-------------------------------------------------------------------|
+| Tip Calculator              | [Link](Challenge%01)       | [Demo](https://seifabdal-azem.github.io/HTML-CSS-JS-Challenge01/) |
 
 ## Contributing Guidelines
 
