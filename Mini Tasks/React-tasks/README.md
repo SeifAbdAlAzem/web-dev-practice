@@ -1,6 +1,6 @@
 # React Mini Tasks Repository
 
-Welcome to the React Mini Tasks and Components Repository! This repository contains a collection of mini tasks and reusable components built using React. Whether you're a beginner looking to practice React concepts or a developer seeking ready-to-use components, this repository has something for you.
+Welcome to the React Mini Tasks and Components Repository! This repository contains a collection of mini-tasks and reusable components built using React. Whether you're a beginner looking to practice React concepts or a developer seeking ready-to-use components, this repository has something for you.
 
 ## Table of Contents
 
@@ -31,12 +31,12 @@ Feel free to explore the tasks and components, experiment with the code, and inc
 
 ### Tasks Navigation
 
-| Task Name   | Task Link                          |
-|-------------|------------------------------------|
-| Task 1      | [Link](Expense%20Tracker)          |
-| Task 2      | [Link](Task%20Manager)             |
-| Task 3      | [Link](Showing%20Alert%20Message)  |
-| Task 4      | [Link](Updating%20State)           |
+| Task Name   | Task Link                        |
+|-------------|----------------------------------|
+| Task 1      | [Link](expense-tracker)          |
+| Task 2      | [Link](task=manager)             |
+| Task 3      | [Link](showing-alert)            |
+| Task 4      | [Link](updating-state)           |
 
 ### Expense Tracker
 
@@ -63,10 +63,10 @@ This task involves showing an alert message by pressing a button and removing it
 
 | Component Name   | Component Link               |
 |------------------|------------------------------|
-| Component 1      | [Link](Expandable%20Text)    |
-| Component 2      | [Link](Cart)                 |
-| Component 3      | [Link](Like%20Button)        |
-| Component 4      | [Link](Pricing%20Component)  |
+| Component 1      | [Link](expandable-text)      |
+| Component 2      | [Link](cart)                 |
+| Component 3      | [Link](love-btn)             |
+| Component 4      | [Link](pricing)              |
 
 ### Expandable Text
 
