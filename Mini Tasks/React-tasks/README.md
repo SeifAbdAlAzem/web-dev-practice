@@ -31,12 +31,12 @@ Feel free to explore the tasks and components, experiment with the code, and inc
 
 ### Tasks Navigation
 
-| Task Name   | Task Link                        |
-|-------------|----------------------------------|
-| Task 1      | [Link](expense-tracker)          |
-| Task 2      | [Link](task=manager)             |
-| Task 3      | [Link](showing-alert)            |
-| Task 4      | [Link](updating-state)           |
+| Task Name                | Task Link                        |
+|--------------------------|----------------------------------|
+| Expense Tracker          | [Link](expense-tracker)          |
+| Task Manager             | [Link](task=manager)             |
+| Showing Alert Message    | [Link](showing-alert)            |
+| Updating State           | [Link](updating-state)           |
 
 ### Expense Tracker
 
@@ -61,12 +61,12 @@ This task involves showing an alert message by pressing a button and removing it
 
 ### Components Navigation
 
-| Component Name   | Component Link               |
-|------------------|------------------------------|
-| Component 1      | [Link](expandable-text)      |
-| Component 2      | [Link](cart)                 |
-| Component 3      | [Link](love-btn)             |
-| Component 4      | [Link](pricing)              |
+| Component Name       | Component Link               |
+|----------------------|------------------------------|
+| Expandable Text      | [Link](expandable-text)      |
+| Cart                 | [Link](cart)                 |
+| Like Button          | [Link](love-btn)             |
+| Pricing Component    | [Link](pricing)              |
 
 ### Expandable Text
 
