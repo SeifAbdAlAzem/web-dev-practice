@@ -22,50 +22,51 @@ The HTML5 and CSS3 Mini Tasks Repository provides a multile tasks for web develo
 
 ### Tasks Navigation
 
-| Template Name | Repository Link | Demo Link |
-|---------------|-----------------|-----------|
-| Task 1        | [Link](#)       | [Demo](#) |
-| Task 2        | [Link](#)       | [Demo](#) |
-| Task 3        | [Link](#)       | [Demo](#) |
-| Task 4        | [Link](#)       | [Demo](#) |
-| Task 5        | [Link](#)       | [Demo](#) |
-| Task 6        | [Link](#)       | [Demo](#) |
+| Template Name | Repository Link                   | Demo Link                                                 |
+|---------------|-----------------------------------|-----------------------------------------------------------|
+| Task 1        | [Link](HTML5_And_CSS3_Task01)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task01/) |
+| Task 2        | [Link](HTML5_And_CSS3_Task02)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task02/) |
+| Task 3        | [Link](HTML5_And_CSS3_Task03)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task03/) |
+| Task 4        | [Link](HTML5_And_CSS3_Task04)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task04/) |
+| Task 5        | [Link](HTML5_And_CSS3_Task05)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task05/) |
+| Task 6        | [Link](HTML5_And_CSS3_Task06)     | [Demo](https://seifabdal-azem.github.io/HTML-CSS-Task06/) |
+
 
 #### Task 1
 
 ![Task 1 Preview](task1-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task01/)
 
 #### Task 2
 
 ![Task 2 Preview](task2-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task02/)
 
 ### Task 3
 
 ![Task 3 Preview](task3-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task03/)
 
 ### Task 4
 
 ![Task 4 Preview](task4-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task04/)
 
 ### Task 5
 
 ![Task 5 Preview](task5-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task05/)
 
 ### Task 6
 
 ![Task 6 Preview](task6-preview.png)
 
-[Live Demo](link-to-live-demo)
+[Live Demo](https://seifabdal-azem.github.io/HTML-CSS-Task06/)
 
 ## Contributing
 

@@ -14,24 +14,24 @@ Feel free to attempt the challenges on your own, experimenting with different ap
 
 ## Challenges Navigation
 
-| Challenge Name              | Repository Link | Demo Link |
-|-----------------------------|-----------------|-----------|
-| Variable & concatenation    | [Link](#)       | [Demo](#) |
-| Operators                   | [Link](#)       | [Demo](#) |
-| Number                      | [Link](#)       | [Demo](#) |
-| String                      | [Link](#)       | [Demo](#) |
-| If Condition                | [Link](#)       | [Demo](#) |
-| Switch & if condition       | [Link](#)       | [Demo](#) |
-| Arrays                      | [Link](#)       | [Demo](#) |
-| Loop                        | [Link](#)       | [Demo](#) |
-| Random Arguments Function   | [Link](#)       | [Demo](#) |
-| Arrow Function              | [Link](#)       | [Demo](#) |
-| Higher Order Functions      | [Link](#)       | [Demo](#) |
-| DOM                         | [Link](#)       | [Demo](#) |
-| BOM                         | [Link](#)       | [Demo](#) |
-| Destructuring               | [Link](#)       | [Demo](#) |
-| Map & Set                   | [Link](#)       | [Demo](#) |
-| Regular Expression          | [Link](#)       | [Demo](#) |
+| Challenge Name              | Repository Link                   |
+|-----------------------------|-----------------------------------|
+| Variable & concatenation    | [Link](JS%20Challenge%2001)       |
+| Operators                   | [Link](JS%20Challenge%2002)       |
+| Number                      | [Link](JS%20Challenge%2003)       |
+| String                      | [Link](JS%20Challenge%2004)       |
+| If Condition                | [Link](JS%20Challenge%2005)       |
+| Switch & if condition       | [Link](JS%20Challenge%2006)       |
+| Arrays                      | [Link](JS%20Challenge%2007)       |
+| Loop                        | [Link](JS%20Challenge%2008)       |
+| Random Arguments Function   | [Link](JS%20Challenge%2009)       |
+| Arrow Function              | [Link](JS%20Challenge%2010)       |
+| Higher Order Functions      | [Link](JS%20Challenge%2011)       |
+| DOM                         | [Link](JS%20Challenge%2012)       |
+| BOM                         | [Link](JS%20Challenge%2013)       |
+| Destructuring               | [Link](JS%20Challenge%2014)       |
+| Map & Set                   | [Link](JS%20Challenge%2015)       |
+| Regular Expression          | [Link](JS%20Challenge%2016)       |
 
 ## Contributing Guidelines
 
